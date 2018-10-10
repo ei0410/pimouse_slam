@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import rospy
-from geometory_msgs.msg import Twist
+from geometry_msgs.msg import Twist
 from std_srvs.srv import Trigger, TriggerResponse
 
 rospy.wait_for_service('/motor_on')
